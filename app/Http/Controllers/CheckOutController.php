@@ -89,7 +89,7 @@ class CheckOutController extends Controller
             "vnp_OrderInfo" => $vnp_OrderInfo,
             "vnp_OrderType" => $vnp_OrderType,
             "vnp_ReturnUrl" => $vnp_Returnurl,
-            "vnp_TxnRef" => $vnp_TxnRef
+            "vnp_TxnRef" => $vnp_TxnRef,
         );
 
         if (isset($vnp_BankCode) && $vnp_BankCode != "") {
